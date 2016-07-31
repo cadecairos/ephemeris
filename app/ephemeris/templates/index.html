@@ -1,0 +1,17 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ephemeris</title>
+</head>
+<body>
+  <noscript>This application requires javascript to function.</noscript>
+  <div id="root"></div>
+  <script type="text/javascript" src="{% static "js/vendor.bundle.js" %}"></script>
+  <script>
+    window.django = {};
+  </script>
+  <script type="text/javascript" src="{% static "js/bundle.js" %}"></script>
+</body>
+</html>
